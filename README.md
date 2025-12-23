@@ -17,7 +17,7 @@ Cleaned_Final_Shipments.csv – cleaned and processed dataset
 
 Summary folder – containing port summary, status summary, GST summary
 
-selenium_extracted/extracted_shipments.csv – data extracted via Selenium from the source web portal
+Selenium_extracted_data.csv – data extracted via Selenium from the source web portal
 
 Note: The Selenium-extracted CSV is separate for clarity; the code is embedded in the Jupyter notebook.
 
@@ -49,7 +49,7 @@ Project Steps 📝
 
 1. Data Extraction
 Selenium automation script in data_processing.ipynb fetches shipment data from the web portal.
-Extracted data is saved as selenium_extracted/extracted_shipments.csv.
+Extracted data is saved as selenium_extracted_data.csv.
 
 3. Data Cleaning and Transformation
 Raw data cleaned using Pandas in Jupyter notebook.
