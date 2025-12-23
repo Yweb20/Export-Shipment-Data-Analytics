@@ -2,11 +2,13 @@
 Export Shipment Data Analytics
 
 Overview 📊
+
 This project is a real-world data engineering and analytics assignment designed to analyze export shipment data and generate actionable insights. It demonstrates data extraction, cleaning, transformation, visualization, and reporting skills using Python, SQL, Power BI, and Selenium. The project showcases the end-to-end process from raw data to dashboards, simulating a professional workflow.
 
 ---
 
 Dataset 📁
+
 The project uses a shipment dataset containing export shipment details, compliance status, GST, EGM, ports, and other operational data.
 
 Files include:
@@ -24,6 +26,7 @@ Note: The Selenium-extracted CSV is separate for clarity; the code is embedded i
 ---
 
 Tools and Technologies 🛠️
+
 Python – data processing and automation
 
 Selenium – web data extraction
@@ -42,6 +45,7 @@ Docker – containerized execution of Python scripts
 ---
 
 Project Steps 📝
+
 1. Data Extraction
 Selenium automation script in data_processing.ipynb fetches shipment data from the web portal.
 Extracted data is saved as selenium_extracted/extracted_shipments.csv.
@@ -79,6 +83,7 @@ Dashboard presents an overview of operational metrics and insights.
 
 Key Results and Insights 📈
 
+
 Total Shipments: 379
 
 GST Compliant Shipments: 100% (as per dataset)
@@ -92,6 +97,7 @@ Operational Summary: Real-time overview of export compliance and logistics effic
 ---
 
 How to Run the Project ⚡
+
 1. Using Docker
 Build the Docker image:
 Copy code
@@ -120,6 +126,7 @@ Refresh data if needed, interact with slicers, and explore visual insights.
 ---
 
 Selenium Section 🕸️
+
 Selenium automation code is included inside the data_processing.ipynb notebook.
 It extracts shipment data from the source web portal and saves it as selenium_extracted/extracted_shipments.csv.
 This ensures the process and output are reproducible.
